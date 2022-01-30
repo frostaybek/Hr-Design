@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: calibri;
+    color: white;
+}
+
+body{
+    background: linear-gradient(to right, #d53369, #cbad6d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#one{
+    border: 2px solid black;
+    height: 28px;
+    background: linear-gradient(to right, red, green, purple);
+    width: 500px;
+    margin: 0% auto;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#two{
+    border: none;
+    height: 4px;
+    background: gray;
+    width: 500px;
+    margin: 0% auto;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#one:hover{
+    transform: translateZ(2px);
+}
+
+#one:active{
+    filter: saturate(2);
+    transition-duration: 0.4s;
+}
